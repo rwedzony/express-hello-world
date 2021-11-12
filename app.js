@@ -10,6 +10,10 @@ app.get('/elo', (req, res) => {
   res.send('addd second endpoint in express!')
 })
 
+app.get('/elo1', (req, res) => {
+  res.send('addd second endpoint in express1!')
+})
+
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`)
 })
